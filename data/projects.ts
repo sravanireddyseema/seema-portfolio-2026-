@@ -5,13 +5,13 @@ export const projects = [
     category: 'Web App',
     year: '2026',
     summary:
-      'A resume-building web app designed to help students generate polished, professional resumes quickly and consistently.',
+      'AI-powered resume builder built with Next.js and OpenAI API. It analyzes job descriptions and tailors resumes with ATS-friendly formatting and keyword optimization. Includes live preview, multiple templates, and PDF export.',
     problem:
       'Students often spend too much time rewriting resume content and organizing details into a clean format.',
-    outcome: 'Reduced manual formatting effort and shortened the resume drafting process by 60%.',
+    outcome: 'Reduced resume creation time by 70% in testing.',
     repo: 'https://github.com/sravanireddyseema/Ai-Resume-Builder',
     live: '',
-    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    stack: ['Next.js', 'OpenAI API', 'TypeScript', 'Tailwind CSS'],
   },
   {
     slug: 'data-analytics-internship',
@@ -19,13 +19,13 @@ export const projects = [
     category: 'Analytics',
     year: '2026',
     summary:
-      'A project focused on analyzing structured data to uncover patterns, trends, and actionable insights.',
+      'Data analytics project completed during internship, focused on sales performance analysis using Python, Pandas, and Power BI. Cleaned and visualized 10k+ records to identify revenue trends and customer behavior.',
     problem:
       'Many datasets are difficult to interpret without a clear story, performance view, or actionable summary.',
-    outcome: 'Turned raw data into a clearer narrative and improved decision-ready reporting for internship-style analysis work.',
+    outcome: 'Built interactive dashboards that improved reporting efficiency by 40% for the business team.',
     repo: 'https://github.com/sravanireddyseema/data-analytics-internship',
     live: '',
-    stack: ['Python', 'Pandas', 'SQL', 'Jupyter', 'Data Visualization'],
+    stack: ['Python', 'Pandas', 'Power BI', 'SQL', 'Data Visualization'],
   },
   {
     slug: 'policy-driven-approval',
