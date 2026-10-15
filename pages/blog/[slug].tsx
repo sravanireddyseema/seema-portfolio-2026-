@@ -32,7 +32,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const filePath = path.join(postsDirectory, `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
-  const processedContent = await remark().use(html).process(content);
+
+  // remark/remark-html type signatures can be picky in TypeScript; cast the plugin to any for build-time compatibility.
+  const processedContent = await remark().use(html as any).process(content);
 
   return {
     props: {
